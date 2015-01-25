@@ -1,0 +1,22 @@
+@CHARSET "UTF-8";
+
+#sub-form
+{
+	display: block;
+	width: 100%;
+}
+
+#sub-form span
+{
+	display:block;
+	float: left;
+	font-size: 1.4em; 
+	color: black;
+	padding: 5px;
+}
+
+#sub-form select
+{
+	width: 70%;
+	float: right;
+}

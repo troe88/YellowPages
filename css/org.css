@@ -1,0 +1,28 @@
+@CHARSET "UTF-8";
+
+.org{
+	margin:0 0 0 -9px;
+	padding:10px 0 10px 15px;
+	height:70px;
+	width: 100%;
+	border-bottom:1px dashed black;
+	display: inline-block;
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+.org:hover{
+	border-top:2px solid red;
+	border-bottom:2px solid red;
+	margin-top:-2px;
+	padding:10px 0 9px 15px;
+	background-color: rgba(200,0,0, 0.1);
+}
+
+.chet{
+	background-color: rgba(0,0,0, 0.05);
+}
+
+.nchet{
+	background-color: rgba(0,0,0, 0.0);
+}

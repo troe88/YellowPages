@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>AddOrganization</title>
+<script type="text/javascript" src="script/script.js"></script>
+</head>
+<body>
+<pre style="margin-left: 220px">Добавить организацию</pre>
+<form action="addSQL.php" method="post">
+<label>Название организации<br><input type="text" name ="orgName" value="orgName"></label> <br>
+<label>Телефон организации<br><input type="text" name ="orgPhone" value="phones"></label> <br>
+<label>Электронная почта организации<br><input type="text" name ="orgEmail" value="e-mail"></label> <br>
+<label>Сайт организации<br><input type="text" name ="orgSite" value="site"></label> <br>
+<label>Время работы организации<br><input type="text" name ="orgOpertime" value="operation time"></label> <br>
+<label>Дополнительная информация<br><textarea rows="2" cols="50" name ="orgAddinf"></textarea></label> <br>
+
+<label>Сайт организации<br>
+<select name="city">
+<option>Владивосток</option>
+</select> <br>
+</label>
+
+<label>Сайт организации<br>
+<select name="brough">
+<option>противотанковый</option>
+<option>неорганический</option>
+<option>урало-алтайский</option>
+</select> <br>
+</label>
+
+<label>Сайт организации<br>
+<select name="metro">
+<option>Место</option>
+<option>Сердце</option>
+<option>Огню</option>
+</select> <br>
+</label>
+
+<label>Сайт организации<br><input type="text" name ="adrStreet" value="street"></label> <br>
+<label>Сайт организации<br><input type="text" name ="adrHouse" value="house"></label> <br>
+<label>Сайт организации<br><input type="text" name ="adrAprt" value="apartment"></label> <br>
+<label>Сайт организации<br><textarea rows="2" cols="50" name ="adrAddinf"></textarea></label> <br>
+<input type="submit">
+</form>
+<button onclick="closeOrg()">close</button>
+</body>
+</html>
